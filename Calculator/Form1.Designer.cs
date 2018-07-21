@@ -169,6 +169,7 @@
             this.addButton.TabIndex = 11;
             this.addButton.Text = "+";
             this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
             // subButton
             // 
@@ -179,6 +180,7 @@
             this.subButton.TabIndex = 12;
             this.subButton.Text = "−";
             this.subButton.UseVisualStyleBackColor = true;
+            this.subButton.Click += new System.EventHandler(this.subButton_Click);
             // 
             // multiplyButton
             // 
@@ -191,6 +193,7 @@
             this.multiplyButton.Text = "x";
             this.multiplyButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.multiplyButton.UseVisualStyleBackColor = true;
+            this.multiplyButton.Click += new System.EventHandler(this.multiplyButton_Click);
             // 
             // divisionButton
             // 
@@ -201,6 +204,7 @@
             this.divisionButton.TabIndex = 14;
             this.divisionButton.Text = "÷";
             this.divisionButton.UseVisualStyleBackColor = true;
+            this.divisionButton.Click += new System.EventHandler(this.divisionButton_Click);
             // 
             // calculateButton
             // 
@@ -211,6 +215,7 @@
             this.calculateButton.TabIndex = 15;
             this.calculateButton.Text = "Enter";
             this.calculateButton.UseVisualStyleBackColor = true;
+            this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
             // Form1
             // 
