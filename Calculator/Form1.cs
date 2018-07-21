@@ -13,5 +13,9 @@ namespace Calculator {
         public Form1() {
             InitializeComponent();
         }
+
+        private void subButton_Click(object sender, EventArgs e) {
+
+        }
     }
 }
