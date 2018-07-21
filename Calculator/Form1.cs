@@ -54,5 +54,25 @@ namespace Calculator {
             resultBox.Text = "0";
         }
 
+        private void addButton_Click(object sender, EventArgs e) {
+
+        }
+
+        private void subButton_Click(object sender, EventArgs e) {
+
+        }
+
+        private void multiplyButton_Click(object sender, EventArgs e) {
+
+        }
+
+        private void divisionButton_Click(object sender, EventArgs e) {
+
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e) {
+
+        }
+
     }
 }
