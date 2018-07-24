@@ -142,6 +142,9 @@ namespace Calculator {
             if(calculation.operation.isAddition) {
                 int output = Convert.ToInt32(calculation.inputOne) + Convert.ToInt32(calculation.inputTwo);
                 resultBox.Text = output.ToString();
+            } else if (calculation.operation.isSubtraction) {
+                int output = Convert.ToInt32(calculation.inputOne) - Convert.ToInt32(calculation.inputTwo);
+                resultBox.Text = output.ToString();
             }
         }
 
