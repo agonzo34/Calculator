@@ -148,6 +148,9 @@ namespace Calculator {
             } else if (calculation.operation.isMultiplication) {
                 int output = Convert.ToInt32(calculation.inputOne) * Convert.ToInt32(calculation.inputTwo);
                 resultBox.Text = output.ToString();
+            } else if (calculation.operation.isDivision) {
+                int output = Convert.ToInt32(calculation.inputOne) / Convert.ToInt32(calculation.inputTwo);
+                resultBox.Text = output.ToString();
             }
         }
 
